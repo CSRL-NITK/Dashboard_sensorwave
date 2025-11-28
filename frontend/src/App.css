@@ -1,0 +1,22 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #05e676;
+} */
+.App{
+  /* display: flex;
+  flex-direction: row; */
+  border-collapse: collapse;
+}
+.content {
+  /* flex: 8; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* overflow-y: scroll; */
+}
+.content::-webkit-scrollbar {
+  display: none;
+}

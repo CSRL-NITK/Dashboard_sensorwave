@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+
+@import "leaflet/dist/leaflet.css";
+
+/* @config "../../tailwind.config.js"; */
+
+
+
+html,
+body,
+#root,
+.App,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+}
+
+.App {
+  display: flex;
+  position: relative;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
